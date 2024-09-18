@@ -261,8 +261,8 @@ def main(argv):
     os.system('mkdir -p ' + pdfdir + ' ' + pngdir)
     
     for can in cans:
-    	can.Print(pngdir + can.GetName() + '_' + tag + '.pdf')
-    	can.Print(pdfdir + can.GetName() + '_' + tag + '.png')
+    	can.Print(pdfdir + can.GetName() + '_' + tag + '.pdf')
+    	can.Print(pngdir + can.GetName() + '_' + tag + '.png')
     ROOT.gPad.Update()
 
     for gr in grs:
